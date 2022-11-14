@@ -11,7 +11,7 @@ GEM
       aws-sdk-core (= 2.0.48)
     builder (3.2.4)
     jmespath (1.4.0)
-    json (1.8.6)
+    json (2.6.2)
     macaddr (1.7.2)
       systemu (~> 2.6.5)
     multi_json (1.14.1)
@@ -30,7 +30,7 @@ PLATFORMS
 
 DEPENDENCIES
   aws-sdk (~> 2.0.22)
-  json (~> 1.8.1)
+  json (~> 2.6.0)
   rdoc (~> 6.0)
   uuid (~> 2.3.7)
 
