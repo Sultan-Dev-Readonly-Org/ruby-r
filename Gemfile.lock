@@ -1,20 +1,20 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    aws-sdk (2.0.48)
-      aws-sdk-resources (= 2.0.48)
-    aws-sdk-core (2.0.48)
-      builder (~> 3.0)
+    aws-eventstream (1.2.0)
+    aws-sdk (2.11.632)
+      aws-sdk-resources (= 2.11.632)
+    aws-sdk-core (2.11.632)
+      aws-sigv4 (~> 1.0)
       jmespath (~> 1.0)
-      multi_json (~> 1.0)
-    aws-sdk-resources (2.0.48)
-      aws-sdk-core (= 2.0.48)
-    builder (3.2.4)
-    jmespath (1.4.0)
+    aws-sdk-resources (2.11.632)
+      aws-sdk-core (= 2.11.632)
+    aws-sigv4 (1.5.2)
+      aws-eventstream (~> 1, >= 1.0.2)
+    jmespath (1.6.1)
     json (1.8.6)
     macaddr (1.7.2)
       systemu (~> 2.6.5)
-    multi_json (1.14.1)
     psych (4.0.6)
       stringio
     rdoc (6.4.0)
@@ -29,7 +29,7 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  aws-sdk (~> 2.0.22)
+  aws-sdk (~> 2.11.0)
   json (~> 1.8.1)
   rdoc (~> 6.0)
   uuid (~> 2.3.7)
